@@ -1,0 +1,13 @@
+{
+  "slug": "magic-portfolio",
+  "files": [
+    {
+      "id": "portfolio-content",
+      "path": "src/resources/content.tsx"
+    },
+    {
+      "id": "portfolio-config",
+      "path": "src/resources/once-ui.config.ts"
+    }
+  ]
+}
