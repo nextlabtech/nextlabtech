@@ -1,13 +1,4 @@
-import {
-  About,
-  Blog,
-  Gallery,
-  Home,
-  Newsletter,
-  Person,
-  Social,
-  Work,
-} from "@/types";
+import { About, Blog, Gallery, Home, Newsletter, Person, Social, Work } from "@/types";
 import { Line, Logo, Row, Text } from "@once-ui-system/core";
 
 const person: Person = {
@@ -17,7 +8,7 @@ const person: Person = {
   role: "Web Developer",
   avatar: "/images/avatarMe.jpg",
   email: "ahmedzubairbd@gmail.com",
-  location: "Asia/Jakarta", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
+  location: "Asia/Dhaka", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
   languages: ["English", "Bangla"], // optional: Leave the array empty if you don't want to display languages
 };
 
@@ -107,11 +98,10 @@ const about: About = {
     title: "Introduction",
     description: (
       <>
-        {person.name} is a {person.role} from {person.location} with a passion
-        for building intuitive user experiences.
-        {person.name} works on a variety of projects, including digital
-        interfaces, interactive experiences, and the convergence of design and
-        technology.
+        {person.name} is a {person.role} from {person.location} with a passion for building
+        intuitive user experiences.
+        {person.name} works on a variety of projects, including digital interfaces, interactive
+        experiences, and the convergence of design and technology.
       </>
     ),
   },
@@ -125,12 +115,12 @@ const about: About = {
         role: "Senior Design Engineer",
         achievements: [
           <>
-            Redesigned the UI/UX for the FLY platform, resulting in a 20%
-            increase in user engagement and 30% faster load times.
+            Redesigned the UI/UX for the FLY platform, resulting in a 20% increase in user
+            engagement and 30% faster load times.
           </>,
           <>
-            Spearheaded the integration of AI tools into design workflows,
-            enabling designers to iterate 50% faster.
+            Spearheaded the integration of AI tools into design workflows, enabling designers to
+            iterate 50% faster.
           </>,
         ],
         images: [
@@ -149,12 +139,12 @@ const about: About = {
         role: "Lead Designer",
         achievements: [
           <>
-            Developed a design system that unified the brand across multiple
-            platforms, improving design consistency by 40%.
+            Developed a design system that unified the brand across multiple platforms, improving
+            design consistency by 40%.
           </>,
           <>
-            Led a cross-functional team to launch a new product line,
-            contributing to a 15% increase in overall company revenue.
+            Led a cross-functional team to launch a new product line, contributing to a 15% increase
+            in overall company revenue.
           </>,
         ],
         images: [],
@@ -181,9 +171,7 @@ const about: About = {
     skills: [
       {
         title: "Figma",
-        description: (
-          <>Able to prototype in Figma with Once UI with unnatural speed.</>
-        ),
+        description: <>Able to prototype in Figma with Once UI with unnatural speed.</>,
         tags: [
           {
             name: "Figma",
@@ -209,10 +197,7 @@ const about: About = {
       {
         title: "Next.js",
         description: (
-          <>
-            Building Next Generation Applications with Best Industry Level
-            Technologies.
-          </>
+          <>Building Next Generation Applications with Best Industry Level Technologies.</>
         ),
         tags: [
           {

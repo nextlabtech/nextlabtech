@@ -8,9 +8,12 @@
     "dev": "next dev",
     "export": "next export",
     "build": "next build",
+    "biome-check": "npx @biomejs/biome check .",
     "biome-write": "npx @biomejs/biome format --write .",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "format": "next format",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
     "@mdx-js/loader": "^3.1.0",

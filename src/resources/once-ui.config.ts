@@ -192,15 +192,15 @@ const mailchimp: MailchimpConfig = {
 const schema: SchemaConfig = {
   logo: "",
   type: "Organization",
-  name: "Once UI",
+  name: "NEXT Lab",
   description: home.description,
-  email: "lorant@once-ui.com",
+  email: "admin@nextlab.info",
 };
 
 // social links
 const sameAs: SameAsConfig = {
-  threads: "https://www.threads.com/@once_ui",
-  linkedin: "https://www.linkedin.com/company/once-ui/",
+  threads: "https://www.threads.com/@nextlab",
+  linkedin: "https://www.linkedin.com/company/nextlab/",
   discord: "https://discord.com/invite/5EyAQ4eNdS",
 };
 
